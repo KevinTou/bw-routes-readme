@@ -1,6 +1,29 @@
-# Routes
+# <p id="routes">Routes</p>
 
-## Init
+<ul>
+<li><a href="#init">Initialization (Get current position)</a></li>
+<li><a href="#move">Move Player</a></li>
+<li><a href="#take">Take Treasure</a></li>
+<li><a href="#drop">Drop Treasure</a></li>
+<li><a href="#sell">Sell Treasure</a></li>
+<li><a href="#status">Check Status or Inventory</a></li>
+<li><a href="#examine">Examine (Player, Item, or Room)</a></li>
+<li><a href="#equip">Wear Equipment</a></li>
+<li><a href="#unequip">Remove Equipment</a></li>
+<li><a href="#name">Name Changer</a></li>
+<li><a href="#shrine">Pray at Shrine</a></li>
+<li><a href="#flight">Flight</a></li>
+<li><a href="#dash">Dash</a></li>
+<li><a href="#carry">Ghost Companion Carry</a></li>
+<li><a href="#receive">Receive From Ghost Companion</a></li>
+<li><a href="#warp">Warp</a></li>
+<li><a href="#mine">Mine Lambda Coin</a></li>
+<li><a href="#proof">Get Last Proof</a></li>
+<li><a href="#balance">Lambda Coin Balance</a></li>
+<li><a href="#transmogrify">Transmogrify Item</a></li>
+</ul>
+
+## <div style="display: flex; justify-content: space-between"><p id="init">Init</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -31,9 +54,9 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/init/
 }
 ```
 
-## Move
+## <div style="display: flex; justify-content: space-between"><p id="move">Move</p>
 
----
+## <a href="#routes">(TOP)</a></div>
 
 #### POST
 
@@ -75,7 +98,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/move/
 }
 ```
 
-## Take Treasure
+## <div style="display: flex; justify-content: space-between"><p id="take">Take Treasure</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -106,7 +129,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/take/
 TBD
 ```
 
-## Drop Treasure
+## <div style="display: flex; justify-content: space-between"><p id="drop">Drop Treasure</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -137,7 +160,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/drop/
 TBD
 ```
 
-## Selling Treasure
+## <div style="display: flex; justify-content: space-between"><p id="sell">Selling Treasure</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -188,7 +211,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/sell/
 }
 ```
 
-## Status/Inventory
+## <div style="display: flex; justify-content: space-between"><p id="status">Status/Inventory</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -232,7 +255,7 @@ No body
 }
 ```
 
-## Examine (Item, Player, or Room)
+## <div style="display: flex; justify-content: space-between"><p id="examine">Examine (Item, Player, or Room)</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -263,7 +286,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/examine/
 TBD
 ```
 
-## Wear Equipment
+## <div style="display: flex; justify-content: space-between"><p id="equip">Wear Equipment</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -294,7 +317,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/wear/
 TBD
 ```
 
-## Remove Equipment
+## <div style="display: flex; justify-content: space-between"><p id="unequip">Remove Equipment</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -325,7 +348,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/undress/
 TBD
 ```
 
-## Name Changer - Requires 1000 gold
+## <div style="display: flex; justify-content: space-between"><p id="name">Name Changer - Requires 1000 gold</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -356,7 +379,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/change_name/
 TBD
 ```
 
-## Pray at Shrine
+## <div style="display: flex; justify-content: space-between"><p id="shrine">Pray at Shrine</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -387,7 +410,7 @@ No Body
 TBD
 ```
 
-## Flight - Avoid Penalties on Elevated Terrain
+## <div style="display: flex; justify-content: space-between"><p id="flight">Flight - Avoid Penalties on Elevated Terrain</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -418,7 +441,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/fly/
 TBD
 ```
 
-## Dash - Move Multiple Room in One Direction
+## <div style="display: flex; justify-content: space-between"><p id="dash">Dash - Move Multiple Room in One Direction</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -449,7 +472,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/dash/
 TBD
 ```
 
-## Carry (Ghost Companion)
+## <div style="display: flex; justify-content: space-between"><p id="carry">Carry (Ghost Companion)</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -480,7 +503,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/carry/
 TBD
 ```
 
-## Receive From (Ghost Companion)
+## <div style="display: flex; justify-content: space-between"><p id="receive">Receive From (Ghost Companion)</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -511,7 +534,7 @@ No Body
 TBD
 ```
 
-## Warp - Need Bodywear and Footwear
+## <div style="display: flex; justify-content: space-between"><p id="warp">Warp - Need Bodywear and Footwear</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -542,7 +565,7 @@ No Body
 TBD
 ```
 
-## Mine Lambda Coin - Need to Be in the Correct Room
+## <div style="display: flex; justify-content: space-between"><p id="mine">Mine Lambda Coin - Need to Be in the Correct Room</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -573,7 +596,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/bc/mine/
 TBD
 ```
 
-## Last Valid Proof
+## <div style="display: flex; justify-content: space-between"><p id="proof">Last Valid Proof</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -610,7 +633,7 @@ No Body
 }
 ```
 
-## Lambda Coin Balance
+## <div style="display: flex; justify-content: space-between"><p id="balance">Lambda Coin Balance</p><a href="#routes">(TOP)</a></div>
 
 ---
 
@@ -645,7 +668,7 @@ No Body
 }
 ```
 
-## Transmogrify Items - Need Lambda Coins
+## <div style="display: flex; justify-content: space-between"><p id="transmogrify">Transmogrify Items - Need Lambda Coins</p><a href="#routes">(TOP)</a></div>
 
 ---
 
