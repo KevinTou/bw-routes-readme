@@ -370,7 +370,7 @@ https://lambda-treasure-hunt.herokuapp.com/api/adv/change_name/
 ##### Body:
 
 ```json
-{ "name": "[NEW NAME]" }
+{ "name": "[NEW NAME]", "confirm": "aye" }
 ```
 
 ##### Response:
